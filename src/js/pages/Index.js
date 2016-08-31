@@ -7,7 +7,7 @@ export default class Index extends React.Component {
 		return (
 			<div className="container">
 				<BasicCom />
-				<LifeCycle />
+				<LifeCycle name="ken" age="28" />
 			</div>
 		);
 	}
